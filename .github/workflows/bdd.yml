@@ -2,7 +2,8 @@
 name: BDD
 
 on:
-  deployment_status
+  deployment_status:
+  workflow_dispatch:
 
 jobs:
   test:

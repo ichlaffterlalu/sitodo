@@ -6,6 +6,7 @@ on:
     branches: [ main, feature/dast ]
   pull_request:
     branches: [ main, feature/dast ]
+  workflow_dispatch:
 
 jobs:
   test:
