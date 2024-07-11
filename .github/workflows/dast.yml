@@ -23,9 +23,9 @@ jobs:
           java-version: "17"
           cache: "maven"
       - name: Build with Maven
-        run: mvn package -DskipTests -Djar.finalName=sitodo
+        run: mvn package -DskipTests
       - name: Run app
-        run: java -jar target/sitodo.jar & echo $! > target/sitodo.pid
+        run: java -jar target/sitodo-$(mvn help:evaluate -Dexpression="project.version" -q -DforceStdout).jar & echo $! > target/sitodo.pid
       - name: ZAP Full Scan
         uses: zaproxy/action-full-scan@v0.10.0
         with:
