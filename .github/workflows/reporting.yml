@@ -30,6 +30,13 @@ jobs:
           name: serenity-reports
           path: target/site/serenity
           workflow: bdd.yml
+      - name: Download DAST test reports
+        uses: dawidd6/action-download-artifact@v2.9.0
+        with:
+          branch: main
+          name: zap-reports
+          path: target/site/zap
+          workflow: dast.yml
       - name: Add top-level test reporting page
         run: |
           cp .github/pages/index.html target/site/index.html
