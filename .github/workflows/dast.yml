@@ -2,7 +2,10 @@
 name: Dynamic Application Security Testing
 
 on:
-  deployment_status
+  push:
+    branches: [ main, feature/dast ]
+  pull_request:
+    branches: [ main, feature/dast ]
 
 jobs:
   test:
