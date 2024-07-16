@@ -2,6 +2,7 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=addianto_sitodo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=addianto_sitodo)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=addianto_sitodo&metric=coverage)](https://sonarcloud.io/summary/new_code?id=addianto_sitodo)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/addianto/sitodo/badge)](https://scorecard.dev/viewer/?uri=github.com/addianto/sitodo)
 
 A basic todo app project for teaching basic Web programming, Git workflows, code quality,
 and CI/CD. Heavily inspired by the running example in "Test-Driven Development with Python" book by Harry Percival.
