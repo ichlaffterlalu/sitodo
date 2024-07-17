@@ -64,7 +64,7 @@ jobs:
           mv target/site/images target/site/surefire/images
           mv target/site/surefire-report.html target/site/surefire/surefire-report.html
       - name: Save test reports as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: surefire-jacoco-reports
           path: |
