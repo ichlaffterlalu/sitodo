@@ -24,7 +24,7 @@
 		<sonar.projectKey>addianto_sitodo</sonar.projectKey>
 		<sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
 		<!-- Serenity & Cucumber-related configuration properties -->
-		<serenity.version>4.0.27</serenity.version>
+		<serenity.version>4.1.20</serenity.version>
 		<selenium.version>4.12.1</selenium.version>
 		<surefire.version>3.1.2</surefire.version>
 		<failsafe.version>3.1.2</failsafe.version>
