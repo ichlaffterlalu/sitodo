@@ -41,7 +41,7 @@ jobs:
         run: |
           cp .github/pages/index.html target/site/index.html
       - name: Publish test reports
-        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        uses: JamesIves/github-pages-deploy-action@v4.6.3
         with:
           branch: gh-pages
           folder: target/site
